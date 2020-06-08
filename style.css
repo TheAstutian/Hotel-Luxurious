@@ -1,0 +1,26 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+#first {
+  min-height: 60vh;
+}
+.btn-luxurious {
+  background-color: #ff450b;
+}
+.bg-luxurious {
+  background-color: #ff450b;
+}
+.title-underline {
+  width: 150px;
+  height: 5px;
+  margin: 0 auto;
+}
+.hotel-underlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
+}
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
