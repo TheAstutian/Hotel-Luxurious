@@ -6,23 +6,20 @@ body {
   background: linear-gradient(rgba(31, 33, 51, 0.4), rgba(11, 13, 35, 0.4)),
     url(./assets/Pictures/home-walpaper.jpg) center/cover no-repeat fixed;
 }
-.btn-luxurious {
+.aa-btn-luxurious {
   background-color: #ff450b;
 }
-.bg-luxurious {
+.aa-bg-luxurious {
   background-color: #ff450b;
 }
-.title-underline {
+.aa-title-underline {
   width: 150px;
   height: 5px;
   margin: 0 auto;
 }
-.hotel-underlay {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
-}
-.pos-rel {
+.aa-pos-rel {
   position: relative;
 }
-.pos-abs {
+.aa-pos-abs {
   position: absolute;
 }

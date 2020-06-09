@@ -15,11 +15,12 @@
       rel="stylesheet"
     />
     <!-- main css-->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./aa-style.css" />
   </head>
   <body>
     <!-- Main Page -->
     <section id="first" class="bg-secondary">
+      <!-- nav section -->
       <nav class="navbar py-3 navbar-dark bg-transparent navbar-expand-sm">
         <!-- logo -->
         <!-- <a href="#" class="navbar-brand text-uppercase"
@@ -59,12 +60,17 @@
           </ul>
         </div>
       </nav>
+      <!-- nav section ends here -->
+      <!-- header contents -->
       <div class="container-fluid">
         <div class="row">
+          <!-- Header's text div -->
           <div class="col-12 mt-5">
-            <div class="col-md-6 mx-auto pos-rel">
-              <div class="bg-white pos-abs" style="left: 0; bottom: 0; width: .2rem; height: 100%">
-              </div>
+            <div class="col-md-6 mx-auto aa-pos-rel">
+              <div
+                class="bg-white aa-pos-abs"
+                style="left: 0; bottom: 0; width: 0.2rem; height: 100%;"
+              ></div>
               <h1 class="font-weight-bold text-white ml-2">
                 Relax. <br />
                 You Are At <br />
@@ -72,8 +78,10 @@
               </h1>
             </div>
           </div>
+          <!-- Header's text div ends here-->
+          <!-- span button -->
           <div class="col-12">
-            <div class="col-md-6 mx-auto pos-rel">
+            <div class="col-md-6 mx-auto aa-pos-rel">
               <div class="mt-5 text-center">
                 <button class="btn btn-light py-3 px-4 rounded-0">
                   Choose your hotel
@@ -81,60 +89,83 @@
                 <button class="btn btn-light py-3 px-4 rounded-0">
                   Check in - Check out
                 </button>
-                <button class="btn btn-luxurious text-light py-3 px-4 rounded-0">
+                <button
+                  class="btn aa-btn-luxurious text-light py-3 px-4 rounded-0"
+                >
                   Check Availability
                 </button>
               </div>
+              <!-- info and covid pandemi goes here -->
               <p class="text-center bg-white py-2">
-                For information and updates regarding the COVID-19 pandemic, please
+                For information and updates regarding the COVID-19 pandemic,
+                please
                 <a href="#">visit</a> this page.
               </p>
-
             </div>
           </div>
-          </div>
+          <!-- span button ends here -->
         </div>
       </div>
+      <!-- header contents ends here -->
     </section>
-    <!-- Welcome to luxury  -->
+    <!-- header ends here -->
+    <!-- Welcome to luxury/ the second section  -->
     <section id="second" class="py-3">
       <div class="container">
         <div class="row">
+          <!-- the heading goes here -->
           <div class="col">
-            <h1 class="display-3 font-weight-bold text-center">
+            <h1 class="font-weight-bold text-center">
               Welcome to Luxuria
             </h1>
-            <div class="title-underline bg-luxurious"></div>
+            <!-- this is the underline with css style of class aa-title-underline, and aa-bg-luxorius -->
+            <div class="aa-title-underline aa-bg-luxurious"></div>
           </div>
+          <!-- the heading ends here -->
         </div>
-        <!-- Notes  -->
+        <!-- Notes  here -->
         <div class="row py-5">
+          <!-- the notes, on a medium screen they re previewed inline and on a small screen, they're previewed block -->
           <div class="col-md-6">
-            <h5>
+            <p>
               Hello there and a warm welcome to Luxuria. We’ve been expecting
               you! We know what it means to come from a long and tiring trip and
               to long for a genuine welcome, a good drink and a comfortable bed
               to stretch out on. If you enjoy being treated like a king, you’ve
               come to the right place!
-            </h5>
+            </p>
           </div>
           <div class="col-md-6">
-            <h5>
+            <p>
               Families and business people love us, too. We’ve been hosts to
               Kings, World Leaders, Princes, Queens etc. Our appeal to such a
               wide range of clientele might have to do with our attention to
               detail and making it all very personal. Come on in. We’re here to
               make you feel good!
-            </h5>
+            </p>
           </div>
         </div>
-        <div class="row py-5">
+        <!-- end of notes -->
+      </div>
+    </section>
+    <!-- second section ends here -->
+    <!-- our hotel section, third section -->
+    <section id="third" class="py-3">
+      <div class="container">
+        <!-- our hotels header and its underline-->
+        <div class="row">
           <div class="col">
             <h1 class="font-weight-bold">Our Hotels</h1>
-            <div class="title-underline bg-luxurious" style="margin: 0;"></div>
+            <div
+              class="aa-title-underline aa-bg-luxurious"
+              style="margin: 0;"
+            ></div>
           </div>
         </div>
+        <!-- header ends here -->
+        <!-- images of our hotel -->
         <div class="row py-3">
+          <!-- image 1  -->
           <div class="col-sm-6 col-md-4 my-3">
             <img
               src="/assets/Pictures/our-hotel1.jpg"
@@ -142,6 +173,7 @@
               class="img-fluid rounded"
             />
           </div>
+          <!-- image 2 -->
           <div class="col-sm-6 col-md-4 my-3">
             <img
               src="/assets/Pictures/our-hotel2.jpg"
@@ -149,65 +181,90 @@
               class="img-fluid rounded"
             />
           </div>
+          <!-- image 3 -->
           <div class="col-sm-6 col-md-4 my-3 mx-auto">
             <img
               src="/assets/Pictures/our-hotel3.jpg"
               alt=""
               class="img-fluid rounded"
             />
-            <p class="font-weight-bold">
-              Luxuria Hotel,<br />
-              London
-            </p>
           </div>
-          <div class="title-underline bg-secondary" style="width: 70%;"></div>
         </div>
-        <div class="row py-3">
-          <div class="col pos-rel">
-            <!-- <div> -->
-              <img
-                src="/assets/Pictures/Eiffeltower.jpg"
-                alt="" width="80%"
-                />
-              <button
-                class="btn btn-luxurious px-3 text-light d-none d-md-block pos-abs"
-                style="top: 45%; left: 70%;"
-              >
-                <h3 class="text-uppercase font-weight-bold">
-                  Book your Room
-                </h3>
-                <p class="text-lowercase">
-                  Looking for luxurious room in Paris?<br />Book Now!
-                </p>
-              </button>
-            </div>
-            <div class="col-12 mt-3">
+        <!-- images div ends here -->
+        <!-- underline -->
+        <div class="aa-title-underline bg-secondary" style="width: 40%;"></div>
+      </div>
+    </section>
+    <!-- third section ends here -->
+    <!-- eiffel tower, the fourth section -->
+    <section id="fourth" class="py-5">
+      <div class="container">
+        <div class="row">
+          <!-- tower image -->
+          <div class="col aa-pos-rel">
+            <img src="/assets/Pictures/Eiffeltower.jpg" alt="" width="80%" />
+            <!-- button beside the tower image on lg/md screen, it gets hidden on small screen -->
+            <button
+              class="btn aa-btn-luxurious px-3 text-light d-none d-md-block aa-pos-abs"
+              style="top: 30%; left: 70%;"
+            >
+              <h3 class="text-uppercase font-weight-bold">
+                Book your Room
+              </h3>
+              <p class="text-lowercase">
+                Looking for luxurious room in Paris?<br />Book Now!
+              </p>
+            </button>
+            <!-- button at the bottom of the tower on small screen, it gets hidden on large screen -->
+            <button
+              class="btn aa-btn-luxurious px-3 text-light d-block d-md-none mt-3"
+            >
+              <h3 class="text-uppercase font-weight-bold">
+                Book your Room
+              </h3>
+              <p class="text-lowercase">
+                Looking for luxurious room in Paris?<br />Book Now!
+              </p>
+            </button>
+          </div>
+          <!-- tower image and its buttons ends here -->
+          <!-- title and text starts here -->
+          <div class="col-12 mt-3">
+            <!-- title, eiffel tower and its underline -->
+            <div>
               <h1 class="font-weight-bold">Eiffel Tower View</h1>
               <div
-                class="title-underline bg-luxurious"
+                class="aa-title-underline aa-bg-luxurious"
                 style="margin: 0;"
               ></div>
-              <h5>
-                Just a 5-minute walk from the Eiffel Tower, Luxuria Hotel is in
-                a great location for exploring Paris. The DaVinci Villa features
-                a great view of the Eiffel Tower. Each has a private bathroom
-                with a bathtub and a hairdryer. A kitchenette is available in
-                the rooms and kitchenware is provided for an additional fee. The
-                hotel serves a buffet breakfast daily and room service is also
-                available. Other facilities include dry cleaning and a ticket
-                booking service. Wi-Fi is available in rooms upon demand. A
-                2-minute walk from Vavin Metro Station, Saint-Germain-Des-Près
-                and Ile de la Cité can be accessed directly.
-              </h5>
             </div>
+            <!-- title and underline ends here -->
+            <!-- text -->
+            <p class="mt-3">
+              Just a 5-minute walk from the Eiffel Tower, Luxuria Hotel is in a
+              great location for exploring Paris. The DaVinci Villa features a
+              great view of the Eiffel Tower. Each has a private bathroom with a
+              bathtub and a hairdryer. A kitchenette is available in the rooms
+              and kitchenware is provided for an additional fee. The hotel
+              serves a buffet breakfast daily and room service is also
+              available. Other facilities include dry cleaning and a ticket
+              booking service. Wi-Fi is available in rooms upon demand. A
+              2-minute walk from Vavin Metro Station, Saint-Germain-Des-Près and
+              Ile de la Cité can be accessed directly.
+            </p>
+            <!-- text ends here -->
           </div>
+          <!-- title and texts end here -->
         </div>
       </div>
     </section>
+    <!-- fourth section ends here -->
+
     <!-- jQuery -->
     <script src="/js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap js -->
     <script src="/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <!-- my script -->
+    <script src="aa-script.js"></script>
   </body>
 </html>
